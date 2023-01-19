@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="RegFormGUI">
+  <grid id="27dc6" binding="registerPanel" layout-manager="GridLayoutManager" row-count="9" column-count="3" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="10" left="10" bottom="10" right="10"/>
+    <constraints>
+      <xy x="20" y="20" width="563" height="400"/>
+    </constraints>
+    <properties>
+      <background color="-5839385"/>
+    </properties>
+    <border type="none"/>
+    <children>
+      <component id="4c0e7" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="4" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <icon value="login.png"/>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="1554b" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="0" column="1" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Courier" size="38" style="1"/>
+          <foreground color="-16448251"/>
+          <text value="Register"/>
+        </properties>
+      </component>
+      <component id="f6d2c" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Courier New" size="18" style="1"/>
+          <foreground color="-16777216"/>
+          <text value="Name"/>
+        </properties>
+      </component>
+      <component id="de4b7" class="javax.swing.JTextField" binding="tfName">
+        <constraints>
+          <grid row="1" column="1" row-span="1" col-span="2" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <font name="Courier New" size="18" style="1"/>
+          <foreground color="-16777216"/>
+        </properties>
+      </component>
+      <component id="7c0e5" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Courier New" size="18" style="1"/>
+          <foreground color="-16777216"/>
+          <text value="Email"/>
+        </properties>
+      </component>
+      <component id="e12cb" class="javax.swing.JTextField" binding="tfEmail">
+        <constraints>
+          <grid row="2" column="1" row-span="1" col-span="2" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <font name="Courier New" size="18" style="1"/>
+          <foreground color="-16777216"/>
+        </properties>
+      </component>
+      <component id="9cf3f" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Courier New" size="18" style="1"/>
+          <foreground color="-16777216"/>
+          <text value="Label"/>
+        </properties>
+      </component>
+      <component id="e3d05" class="javax.swing.JTextField" binding="tfLabel">
+        <constraints>
+          <grid row="3" column="1" row-span="1" col-span="2" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <font name="Courier New" size="18" style="1"/>
+          <foreground color="-16777216"/>
+        </properties>
+      </component>
+      <component id="5ca65" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Courier New" size="18" style="1"/>
+          <foreground color="-16777216"/>
+          <text value="Address"/>
+        </properties>
+      </component>
+      <component id="75c97" class="javax.swing.JTextField" binding="tfAddress">
+        <constraints>
+          <grid row="4" column="1" row-span="1" col-span="2" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <font name="Courier New" size="18" style="1"/>
+          <foreground color="-16777216"/>
+        </properties>
+      </component>
+      <component id="91a0c" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="5" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Courier New" size="18" style="1"/>
+          <foreground color="-16777216"/>
+          <text value="Password"/>
+        </properties>
+      </component>
+      <component id="6acbd" class="javax.swing.JPasswordField" binding="pfPassword">
+        <constraints>
+          <grid row="5" column="1" row-span="1" col-span="2" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <font name="Courier New" size="18" style="1"/>
+          <foreground color="-16777216"/>
+        </properties>
+      </component>
+      <component id="11e62" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="6" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Courier New" size="18" style="1"/>
+          <foreground color="-16777216"/>
+          <text value="Confirm password"/>
+        </properties>
+      </component>
+      <component id="b7c55" class="javax.swing.JPasswordField" binding="pfConfirmPassword">
+        <constraints>
+          <grid row="6" column="1" row-span="1" col-span="2" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <font name="Courier New" size="18" style="1"/>
+          <foreground color="-16777216"/>
+        </properties>
+      </component>
+      <component id="57af2" class="javax.swing.JButton" binding="btnRegister">
+        <constraints>
+          <grid row="8" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Courier New" size="18" style="1"/>
+          <foreground color="-16777216"/>
+          <text value="Register"/>
+        </properties>
+      </component>
+      <component id="53fc3" class="javax.swing.JButton" binding="btnCancel">
+        <constraints>
+          <grid row="8" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Courier New" size="18" style="1"/>
+          <foreground color="-16777216"/>
+          <text value="Cancel"/>
+        </properties>
+      </component>
+      <vspacer id="c7b7d">
+        <constraints>
+          <grid row="7" column="0" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </vspacer>
+    </children>
+  </grid>
+</form>
