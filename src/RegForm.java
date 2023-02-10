@@ -7,7 +7,7 @@ import java.sql.DriverManager;
 import java.sql.PreparedStatement;
 import java.sql.Statement;
 
-public class RegFormGUI extends JDialog {
+public class RegForm extends JDialog {
     private JTextField tfName;
     private JTextField tfEmail;
     private JTextField tfPhone;
@@ -18,7 +18,7 @@ public class RegFormGUI extends JDialog {
     private JButton btnCancel;
     private JPanel registerPanel;
 
-    public RegFormGUI(JFrame parent) {
+    public RegForm(JFrame parent) {
         super(parent);
         setTitle("Create a new account");
         setContentPane(registerPanel);
@@ -122,7 +122,7 @@ public class RegFormGUI extends JDialog {
     }
 
     public static void main(String[] args) {
-        RegFormGUI myForm = new RegFormGUI(null);
+        RegForm myForm = new RegForm(null);
         User user = myForm.user;
         if (user != null) {
             System.out.println("Successful registration of: " + user.name);
