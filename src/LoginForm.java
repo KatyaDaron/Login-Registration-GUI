@@ -10,6 +10,7 @@ public class LoginForm extends JDialog {
     private JButton btnOk;
     private JButton btnCancel;
     private JPanel loginPanel;
+    private JButton btnRegister;
 
     public LoginForm(JFrame parent) {
         super(parent);
@@ -41,6 +42,14 @@ public class LoginForm extends JDialog {
         btnCancel.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
+                dispose();
+            }
+        });
+
+        btnRegister.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                RegForm regForm = new RegForm(null);
                 dispose();
             }
         });
