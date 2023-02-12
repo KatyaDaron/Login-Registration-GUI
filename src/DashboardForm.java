@@ -8,12 +8,16 @@ public class DashboardForm extends JFrame {
     private JPanel dashboardPanel;
     private JLabel lbAdmin;
     private JButton btnLogout;
+    private JLabel lbName;
+    private JLabel lbEmail;
+    private JLabel lbPhone;
+    private JLabel lbAddress;
 
     public DashboardForm() {
         setTitle("Dashboard");
         setContentPane(dashboardPanel);
         setMinimumSize(new Dimension(500, 429));
-        setSize(1200, 700);
+        setSize(700, 700);
         setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);
 
         boolean hasRegisteredUsers = connectToDatabase();
@@ -22,7 +26,11 @@ public class DashboardForm extends JFrame {
             User user = loginForm.user;
 
             if (user != null) {
-                lbAdmin.setText("User: " + user.name);
+                lbAdmin.setText("Welcome, " + user.name);
+                lbName.setText(user.name);
+                lbEmail.setText(user.email);
+                lbPhone.setText(user.phone);
+                lbAddress.setText(user.address);
                 setVisible(true);
             } else {
                 dispose();
